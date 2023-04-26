@@ -2,3 +2,8 @@ pip-tools
 ipykernel
 pandas 
 scipy
+altair 
+matplotlib
+
+
+vega_datasets
