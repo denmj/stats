@@ -1,0 +1,10 @@
+# Ignore Python virtual environment
+venv/
+
+# Ignore pipenv and setuptools-generated files
+*.egg-info/
+*.egg
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
