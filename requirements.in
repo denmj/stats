@@ -4,6 +4,7 @@ pandas
 scipy
 altair 
 matplotlib
+plotly==5.14.1
 
 
 vega_datasets

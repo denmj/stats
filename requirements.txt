@@ -77,6 +77,7 @@ packaging==23.1
     #   build
     #   ipykernel
     #   matplotlib
+    #   plotly
 pandas==2.0.1
     # via
     #   -r requirements.in
@@ -92,6 +93,8 @@ pip-tools==6.13.0
     # via -r requirements.in
 platformdirs==3.4.0
     # via jupyter-core
+plotly==5.14.1
+    # via -r requirements.in
 prompt-toolkit==3.0.38
     # via ipython
 psutil==5.9.5
@@ -125,6 +128,8 @@ six==1.16.0
     # via python-dateutil
 stack-data==0.6.2
     # via ipython
+tenacity==8.2.2
+    # via plotly
 toolz==0.12.0
     # via altair
 tornado==6.3.1
